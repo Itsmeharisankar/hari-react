@@ -1,8 +1,8 @@
 function Header () {
 return (
-    <div>
-    This is the header 123
-    </div>
+    <header> 
+    hari project
+    </header>    
 );
 
 }
