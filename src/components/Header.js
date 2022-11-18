@@ -1,7 +1,8 @@
-function Header () {
+
+function Header (props) {
 return (
-    <header> 
-    hari project
+    <header style={{ color:'red', height:'40px', backgroundColor:'yellow', padding:'70px' }}> 
+    {props.title}
     </header>    
 );
 
